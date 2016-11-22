@@ -1,201 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- SEO -->
-    <meta name="description" content="Welcome to the portfolio of New York Photographer, John Freelancer">
-    <meta name="keywords" content="Photography, USA, New York, Creative, Freelance">
-    <meta name="author" content="Friends of Design">
+<head>
+	<title>Lauren Wilson</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link rel="icon" type="image/gif" href="favicon2.ico" sizes="16x16">
+	
+</head>
+<body>
+	<div class="container">
 
-    <title>John Freelancer | Home</title>
+		<div class='navbar-toggle' title='Menu'>
+	        <div class='bar1'></div>
+	        <div class='bar2'></div>
+	        <div class='bar3'></div>
+	    </div>
+	    <nav class="nav-hide">
+		  <ul>
+		    <li><a href="index.html" class="hvr-shutter-out-horizontal">Home</a></li>
+		    <li><a href="print.html" class="hvr-shutter-out-horizontal">Print Portfolio</a></li>
+		    <li><a href="digital.html" class="hvr-shutter-out-horizontal">Digital Portfolio</a></li>
+		    <li><a href="#showreelpage" class="hvr-shutter-out-horizontal">Showreel</a></li>
+		    <li><a href="#contact" class="hvr-shutter-out-horizontal">Contact</a></li>
+		  </ul>
+		</nav>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/favicon.png">
+		<img src="img/logo-final.png" class="logo">
+		<div class="job-title">
+			<h2 class="title1">GRAPHIC & WEB</h2>
+			<h1 class="title2">DESIGNER</h1>
+		</div>
+		<div class="dashes">	
+			<img src="img/dashb.png" class="dashb">
+			<img src="img/dashd.png" class="dashd">
+		</div>
+		<img src="img/me.png" class="about-pic">
+		<img src="img/pic-circle.png" class="aboutpic-circle">
+		<div class="about-me">
+			<p class="name">Hi, I'm Lauren. </p>
+			<p>I'm based in creative Cape Town and I take pride in creating captivating design pieces. I've previously worked for Elle Decoration, a local design studio and freelanced for both local and international clients. Please take a look around my site and feel free to show my social sites some love.</p>
+		</div>
+		<img src="img/section-break.png" class="break1">
 
-    <!-- Styling -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+		<!-- portfolio -->
 
-    <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+		<div class="portfolio-headings">
+			<img src="img/index-heading-p.png" class="heading-print">
+			<img src="img/index-heading-d.png" class="heading-digital">
+		</div>	
+		<div class="portfolio-blocks">
+			
+			<a href="print.html"><img src="img/print/print-preview.png" class="print-design"></a>
+			<a href="digital.html"><img src="img/digital/digital-preview.jpg" class="digital-design"></a>
+			<div class="clearfix"></div>
+			<img src="img/index-heading-s.png" class="heading-showreel">
+			<video class="showreel" id="showreelpage" controls="controls" poster="img/srposter2.png">
+				<source src="img/showreel720.mov" type="video/mp4">
+			</video>
+		</div>
 
-    <!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+		<img src="img/section-break.png" class="break2">
+
+		<!-- contact -->
+
+		<div class="contact" id="contact">
+			<img src="img/index-heading-c.png" class="heading-contact">
+
+			<p class="contact-subheading">I would love to work with you, <br>let me know a bit about your project...</p>
+			
+			<div class="contact-left">
+				<img src="img/logo-final.png" class="contact-logo">
+				<div class="my-info">
+					<h4>Lauren Wilson</h4>
+					<h4>lauren.cwilson95@gmail.com</h4>
+				</div>
+
+				<div class="social-media">
+					<a href="https://www.behance.net/Lauren_Wilson" target="_blank"><img src="img/smi/behance.png" class="social-media-icons"></a>
+					<a href="https://www.instagram.com/lauren.cathw/" target="_blank"><img src="img/smi/instagram.png" class="social-media-icons"></a>
+					<a href="https://za.pinterest.com/laurencathw/" target="_blank"><img src="img/smi/pinterest2.png" class="social-media-icons"></a>
+					<a href="https://www.linkedin.com/in/laurencwilson95" target="_blank"><img src="img/smi/linkedin.png" class="social-media-icons"></a>
+				</div>
+			</div>
+
+			<div class="contact-right">
+				<form action="mailto:lauren.cwilson95@gmail.com" method="post" enctype="text/plain">
+					<input type="text" name="name" class="full-bar" id="name" placeholder="Name" required>
+					<input type="text" name="email" class="full-bar" id="email" placeholder="Email address" required>
+					<textarea type="text" name="brief" class="brief-box" id="brief" placeholder="Please tell me a little bit about your project..." required></textarea><br>
+					<input type="text" name="timeline" class="half-bar1" id="timeline" placeholder="Timeline" required>
+					<input type="text" name="budget" class="half-bar2" id="budget" placeholder="Budget" required><br>
+					<button type="submit" class="submit-button"><span class="button-arrow">&#10095;</span></button>
+					<div class="clearfix"></div>
+				</form>
+			</div>
+				
+		</div>
+
+		<footer>Lauren Catherine &#169; 2016. All rights reserved</footer>
+	</div> <!-- closing of container div -->
+
+<!-- scripts -->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type='text/javascript' src='js/navbar.js'></script>
+<!-- <script type="text/javascript" src="js/Modernizr.js"></script> -->
+<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-36251023-1']);
+	  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+	  _gaq.push(['_trackPageview']);
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+
 </script>
-<![endif]-->
 
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-default" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand text-hide" href="index.html">John Freelancer</a>
+</body>
 
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <a href="#" class="btn navbar-right hidden-xs hidden-sm">Hire Me</a>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-    </header>
-    <main>
-
-      <div class="jumbotron">
-        <div class="container text-center">
-          <img src="img/axes.png" alt="John Freelancer logo" title="Welcome to John Freelancer's creative space">
-          <h1>Welcome</h1>
-          <h2>My name is John. I Am Creative.</h2>
-          <p><a href="portfolio.html" class="btn btn-lg" role="button">View My Work</a></p>
-        </div>
-      </div>
-      <div class="container">
-
-        <div id="blog" class="row">
-
-          <h3 class="text-center">My Rantings</h3>
-
-          <div class="col-md-4 col-sm-6">
-              <div class="thumbnail">
-                <img src="img/blog/tanning.jpg" alt="Tanning on a beach in Venice" title="Holiday tanning time">
-                <div class="caption">
-                <h4>I Went Tanning!</h4>
-                <p>By John Freelancer</p>
-              </div>
-          </div>
-        </div>
-
-          <div class="col-md-4 col-sm-6">
-              <div class="thumbnail">
-                <img src="img/blog/venice.jpg" alt="Iconic landscape scene in Venice with buildings and canals" title="Iconic landscape scene in Venice.">
-                <div class="caption">
-                <h4>Bonjourno, Veneto</h4>
-                <p>By John Freelancer</p>
-              </div>
-          </div>
-        </div>
-
-          <div class="col-md-4 col-sm-6">
-              <div class="thumbnail">
-                <img src="img/blog/camera.jpg" alt="Camera" title="A camera from my crazy camera collection">
-                <div class="caption">
-                <h4>Give My Camera Back</h4>
-                <p>By John Freelancer</p>
-              </div>
-          </div>
-        </div>
-        </div>
-   
-
-      <div class="row">
-         <h3 class="text-center">Latest Work</h3>
-         <div class="col-md-4">
-            <a href="#" class="thumbnail">
-            <img src="img/portfolio/london.jpg" alt="Busy london street" title="Busy london street">
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="#" class="thumbnail">
-            <img src="img/portfolio/lakecomo.jpg" alt="Lakecomo" title="Lakecomo">
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="#" class="thumbnail">
-            <img src="img/portfolio/map.jpg" alt="Map closeup" title="Map closeup">
-            </a>
-          </div>
-      </div>
-
-      <div class="row">
-        <h3 class="text-center">My Clients</h3>
-        <div class="col-md-2">
-            <a href="#" class="thumbnail">
-            <img src="img/clients/hipsterlogo1.png" alt="Client 1" title="Client 1">
-            </a>
-          </div>
-          <div class="col-md-2">
-            <a href="#" class="thumbnail">
-            <img src="img/clients/hipsterlogo2.png" alt="Client 2" title="Client 2">
-            </a>
-          </div>
-          <div class="col-md-2">
-            <a href="#" class="thumbnail">
-            <img src="img/clients/hipsterlogo3.png" alt="Client 3" title="Client 3">
-            </a>
-          </div>
-          <div class="col-md-2">
-            <a href="#" class="thumbnail">
-            <img src="img/clients/hipsterlogo5.png" alt="Client 4" title="Client 4">
-            </a>
-          </div>
-          <div class="col-md-2">
-            <a href="#" class="thumbnail">
-            <img src="img/clients/hipsterlogo5.png" alt="Client 5" title="Client 5">
-            </a>
-          </div>
-          <div class="col-md-2">
-            <a href="#" class="thumbnail">
-            <img src="img/clients/hipsterlogo6.png" alt="Client 6" title="Client 6">
-            </a>
-          </div>
-      </div>
-         </div>
-    </main>
-    <footer>
-    <section class="mailing-list">
-      <div class="container">
-        <div class="row">
-          <h5 class="text-center">Join My Mailing List</h5>
-          <form role="form" class="text-center">
-          <div class="form-group"> 
-            <input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="Enter Your Email Address">
-          </div>
-          <button type="submit" class="btn btn-default">Join</button>
-          </form>
-        </div>
-      </div>
-      </section>
-      <section class="sub-footer">
-        <h5><p class="text-center">© Copyright 2014. John Freelancer. All Rights Reserved</p></h5>
-      </section>
-    </footer>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <script> 
-var $buoop = {vs:{i:6,f:15,o:12,s:5},c:2}; 
-function $buo_f(){ 
- var e = document.createElement("script"); 
- e.src = "//browser-update.org/update.min.js"; 
- document.body.appendChild(e);
-};
-try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
-catch(e){window.attachEvent("onload", $buo_f)}
-</script> 
-  
-  </body>
 </html>
