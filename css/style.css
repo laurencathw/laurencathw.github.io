@@ -9,7 +9,7 @@ body{
 	background-image: url('../img/bg-triangle3.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-  background-position-x: -124.5%;
+  background-position-x: -145.5%;
 	margin: 0;
 	padding: 0;
 }
@@ -420,22 +420,6 @@ span.button-arrow:hover{
  }
 /*--------------------- print portfolio -------------------------*/
 
-/*.tn-container{
-  width: 85%;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}*/
-/*
-.project-boxes{
-  width: 32%;
-  border: #6b8cab solid 3px;
-  display: block;
-  float: left;
-  margin-top: 14.5px;
-  margin-left: 14.5px;
-}*/
-
 .port-headings{
   width: 13%;
   margin-top: 23px;
@@ -616,7 +600,7 @@ span.button-arrow:hover{
   width: 20%;
   text-align: center;
   display:block;
-  padding: 0px 150px;
+  padding: 0px 186px;
   top: 200px;
 
 }
@@ -660,24 +644,1705 @@ span.button-arrow:hover{
 
 /* Ipad Portrait */
 @media only screen and (min-width: 768px) and (max-width: 799px){
+  body{
+  width: 100%;
+  background-image: url('../img/bg-triangle3.png');
+  background-size: 86.3%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
 
+nav{
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-container{
+  width: 100%;
+  background-image: url('../img/bg-triangle3.png');
+  background-size: 40.5%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  position: relative;
+  left: 104px;
+  padding-top: 49px;
+  width: 74%;
+
+}
+
+.job-title {
+  margin-left: 210px;
+  margin-top: 64px;
+} 
+  
+.title1{
+  font-size: 40px;
+  margin-left: 24px
+}  
+
+.title2{
+  font-size: 45px;
+  margin-left: 70px;
+}  
+
+.dashb {
+  width: 4.2%;
+  top: 321px;
+  left: 541px;
+}
+.dashd {
+  width: 4.2%;
+  top: 427px;
+  left: 239px;
+}
+
+.about-pic{
+  width: 36%;
+  position: absolute;
+  z-index: 2;
+  right: 256px;
+  top: 475px;
+}
+
+.aboutpic-circle{
+  width: 79%;
+  position: absolute;
+  z-index: 3;
+  right: 104px;
+  top: 459px;
+}
+.name{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: bolder;
+  color: #b22649;
+}
+.about-me p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 21px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: lighter;
+}
+.about-me{
+  width: 630px;
+  margin-right: 73px;
+  padding-top: 340px;
+  float: right;
+  display: block;
+}
+
+.break1{
+  position: relative;
+  left: 39%;
+  top: -5px;
+  width: 20%;
+}
+/*---------------------portfolio section on home page-------------------------*/
+.portfolio-headings{
+  width: 100%;
+  height: 60px;
+  margin-top: 11px;
+}
+
+.heading-print{
+  display: block;
+  float: left;
+  margin-left: 217px;
+}
+
+.heading-digital{
+  display: block;
+  float: right;
+  margin-right: 222px;
+  margin-top: 630px;
+}
+
+.portfolio-blocks{
+  width: 87%;
+  margin-top: -27px;
+  margin: 0 auto;
+}
+
+.print-design{
+  width: 95.9%;
+  display: block;
+  float: left;
+  margin-left: 9px;
+  margin-top: -658px;
+}
+
+.digital-design{
+  width: 92%;
+  display: block;
+  float: right;
+  margin-right: 33px;
+  margin-top: -38px;
+}
+
+.clearfix{
+  clear: both;
+}
+.heading-showreel{
+  padding-bottom: 57px;
+  margin-left: 225px;
+  margin-top: -31px;
+}
+
+.showreel{
+  width: 100%;
+  margin: calc(50% - 50%);
+  margin-top: -16px;
+  height: 384px;
+}
+
+.break2{
+  margin-left: 40%;
+  margin-top:  29px;
+  width: 20%;
+}
+
+/*---------------------contact section-------------------------*/
+
+.contact{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 58px;
+}
+
+.contact-left{
+  width: 69%;
+  display: block;
+  float: left;
+  margin-left: 113px; 
+  margin-top: 20px;
+}
+
+.contact-right{
+  width: 99%;
+  display: block;
+  float: right;
+  margin-right: 9px; 
+
+}
+
+.heading-contact{
+  margin-left: 277px;
+  margin-bottom: 30px;
+  margin-top: -19px;
+}
+
+.contact-subheading{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  margin-top: -23px;
+  text-align: center;
+}
+
+.contact-logo{
+  margin-left: 17.5%;
+  padding-top: 8px;
+  width: 65%;
+}
+.my-info{
+  width: 100%;
+  padding-top: 0px;
+}
+
+.contact h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: lighter;
+  line-height: 0;
+}
+
+.social-media{
+ width: 97%;
+ margin-top: 34px;
+ margin-left: 47px;
+}
+
+.social-media-icons{
+ width: 15%;
+ margin-left: 20px;
+}
+
+form{
+  padding-left: 50px;
+  margin-top: 28px;
+}
+.full-bar{
+  width: 79.5%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.brief-box{
+  width: 79.5%;
+  height: 150px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.half-bar1{
+  width: 38.225%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.half-bar2{
+  width: 38.225%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 0 0 5px 5px;
+}
+
+ input:focus:required {
+  outline: 1px solid #b22649;
+}
+
+input[type="text"] {
+  font-size:23px;
+  padding-left: 10px;
+}
+
+textarea[type="text"] {
+  font-size:23px;
+  padding-left: 10px;
+}
+ .brief-box:focus:required {
+  outline: 1px solid #b22649;
+}
+
+.submit-button{
+  display: block;
+  float: right;
+  margin-right: 46px;
+  margin-top: -359px;
+  width: 10%;
+  height: 355px;
+  border-radius: 2px;
+  border: none;
+  background-color: #DDDEE0;
+}
+
+span.button-arrow{
+  font-size: 50px;
+  color: #6B8CAB;
+
+}
+
+span.button-arrow:hover{
+  color: #b22649;
+
+}
+ footer{
+  width: 100%;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  margin-top: 433px;
+  background-color: #DDDEE0; 
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  line-height: 82px;
+  text-decoration: none;
+
+ }
+/*--------------------- print portfolio -------------------------*/
+
+.port-headings{
+  width: 23%;
+  margin-top: 23px;
+  margin-left: 293px;
+
+}
+.plus-pic{
+  width: 4%;
+  position: absolute;
+  z-index: 3;
+  right: 9px;
+  top: 905px;
+}
+
+.break3{
+  position: relative;
+  left: 40%;
+  top: -106px;
+  width: 20%;
+}
+.heading-skills{
+  margin-left: 161px;
+  margin-top: 97px;
+}
+
+.skills-box{
+  width: 100.5%;
+  margin: 0 auto;
+  margin-top: 38px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+
+.skill-charts{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 206px;
+  margin-left: 34px;
+}
+.skill-charts-illust{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 206px;
+  margin-left: 34px;
+  margin-top: 11px;
+}
+.skill-charts-prem{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 206px;
+  margin-left: 32px;
+}
+
+#skills-charts-code{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 193px;
+  margin-left: 32px;
+}
+.behance-link-footer{
+  width: 100%;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  margin-top: 42px;
+  margin-bottom: 0;
+  background-color: #DDDEE0; 
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  line-height: 82px;
+  text-decoration: none;
+}
+
+.behance-link-footer a:link {
+    text-decoration: none;
+    color: #6B8CAB;
+}
+
+.behance-link-footer a:visited {
+    text-decoration: none;
+    color: #6B8CAB;
+}
+
+/*--------------------- hover settings -------------------------*/
+
+.grid {
+  margin-top: 17px;
+}
+
+.grid ul {
+  width: 99%; 
+}
+
+
+.rig {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+}
+
+.rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width: 30%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding: 8px;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #000 no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 20px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px; 
+    letter-spacing: 0.3px;
+    line-height: 82px;
+    text-decoration: none;
+    font-weight:normal!important;
+    top:40%;
+    color:#fff;
+    opacity:0;
+    filter:alpha(opacity=0);
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+
+.rig-logo{
+  width: 20%;
+  text-align: center;
+  display:block;
+  padding: 0px 130px 30px;
+  top: 200px;
+
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+
+.img2{
+  display: none;
+}
+
+.img2:hover{
+  display: none;
+}
 
 } /* Close Ipad Portrait Media Query */
 
 
 
 
+
+
+
+
+
+
+
 /* Google Nexus 10 */
 @media only screen and (min-width: 800px) and (max-width: 1023px){
+  body{
+  width: 100%;
+  background-image: url('../img/bg-triangle3.png');
+  background-size: 86%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
 
+nav{
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-container{
+  width: 100%;
+  background-image: url('../img/bg-triangle3.png');
+  background-size: 40.5%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  position: relative;
+  left: 104px;
+  padding-top: 49px;
+  width: 74%;
+
+}
+
+.job-title {
+  margin-left: 210px;
+  margin-top: 64px;
+} 
+  
+.title1{
+  font-size: 40px;
+  margin-left: 24px
+}  
+
+.title2{
+  font-size: 45px;
+  margin-left: 70px;
+}  
+
+.dashb {
+  width: 4.2%;
+  top: 327px;
+  left: 538px;
+}
+.dashd {
+  width: 4.2%;
+  top: 435px;
+  left: 239px;
+}
+
+.about-pic{
+  width: 36%;
+  position: absolute;
+  z-index: 2;
+  right: 256px;
+  top: 477px;
+}
+
+.aboutpic-circle{
+  width: 79%;
+  position: absolute;
+  z-index: 3;
+  right: 97px;
+  top: 459px;
+}
+.name{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: bolder;
+  color: #b22649;
+}
+.about-me p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 21px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: lighter;
+}
+.about-me{
+  width: 630px;
+  margin-right: 73px;
+  padding-top: 340px;
+  float: right;
+  display: block;
+}
+
+.break1{
+  position: relative;
+  left: 39%;
+  top: -5px;
+  width: 20%;
+}
+/*---------------------portfolio section on home page-------------------------*/
+.portfolio-headings{
+  width: 100%;
+  height: 60px;
+  margin-top: 11px;
+}
+
+.heading-print{
+  display: block;
+  float: left;
+  margin-left: 236px;
+}
+
+.heading-digital{
+  display: block;
+  float: right;
+  margin-right: 241px;
+  margin-top: 663px;
+}
+
+.portfolio-blocks{
+  width: 87%;
+  margin-top: -27px;
+  margin: 0 auto;
+}
+
+.print-design{
+  width: 95.9%;
+  display: block;
+  float: left;
+  margin-left: 14px;
+  margin-top: -686px;
+}
+
+.digital-design{
+  width: 92%;
+  display: block;
+  float: right;
+  margin-right: 33px;
+  margin-top: -38px;
+}
+
+.clearfix{
+  clear: both;
+}
+.heading-showreel{
+  padding-bottom: 57px;
+  margin-left: 225px;
+  margin-top: -31px;
+}
+
+.showreel{
+  width: 100%;
+  margin: calc(50% - 50%);
+  margin-top: -16px;
+  height: 400px;
+}
+
+.break2{
+  margin-left: 40%;
+  margin-top:  29px;
+  width: 20%;
+}
+
+/*---------------------contact section-------------------------*/
+
+.contact{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 58px;
+}
+
+.contact-left{
+  width: 69%;
+  display: block;
+  float: left;
+  margin-left: 113px; 
+  margin-top: 20px;
+}
+
+.contact-right{
+  width: 99%;
+  display: block;
+  float: right;
+  margin-right: 9px; 
+
+}
+
+.heading-contact{
+  margin-left: 277px;
+  margin-bottom: 30px;
+  margin-top: -19px;
+}
+
+.contact-subheading{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  margin-top: -23px;
+  text-align: center;
+}
+
+.contact-logo{
+  margin-left: 17.5%;
+  padding-top: 8px;
+  width: 65%;
+}
+.my-info{
+  width: 100%;
+  padding-top: 0px;
+}
+
+.contact h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: lighter;
+  line-height: 0;
+}
+
+.social-media{
+ width: 97%;
+ margin-top: 34px;
+ margin-left: 47px;
+}
+
+.social-media-icons{
+ width: 15%;
+ margin-left: 20px;
+}
+
+form{
+  padding-left: 50px;
+  margin-top: 28px;
+}
+.full-bar{
+  width: 79.5%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.brief-box{
+  width: 79.5%;
+  height: 150px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.half-bar1{
+  width: 38.225%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.half-bar2{
+  width: 38.225%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 0 0 5px 5px;
+}
+
+ input:focus:required {
+  outline: 1px solid #b22649;
+}
+
+input[type="text"] {
+  font-size:23px;
+  padding-left: 10px;
+}
+
+textarea[type="text"] {
+  font-size:23px;
+  padding-left: 10px;
+}
+ .brief-box:focus:required {
+  outline: 1px solid #b22649;
+}
+
+.submit-button{
+  display: block;
+  float: right;
+  margin-right: 46px;
+  margin-top: -359px;
+  width: 10%;
+  height: 355px;
+  border-radius: 2px;
+  border: none;
+  background-color: #DDDEE0;
+}
+
+span.button-arrow{
+  font-size: 50px;
+  color: #6B8CAB;
+
+}
+
+span.button-arrow:hover{
+  color: #b22649;
+
+}
+ footer{
+  width: 100%;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  margin-top: 433px;
+  background-color: #DDDEE0; 
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  line-height: 82px;
+  text-decoration: none;
+
+ }
+/*--------------------- print portfolio -------------------------*/
+
+.port-headings{
+  width: 23%;
+  margin-top: 23px;
+  margin-left: 321px;
+
+}
+.plus-pic{
+  width: 4%;
+  position: absolute;
+  z-index: 3;
+  right: 9px;
+  top: 934px;
+}
+
+.break3{
+  position: relative;
+  left: 40%;
+  top: -106px;
+  width: 20%;
+}
+.heading-skills{
+  margin-left: 161px;
+  margin-top: 97px;
+}
+
+.skills-box{
+  width: 100.5%;
+  margin: 0 auto;
+  margin-top: 38px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.skill-charts{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 206px;
+  margin-left: 34px;
+}
+.skill-charts-illust{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 206px;
+  margin-left: 34px;
+  margin-top: 11px;
+}
+.skill-charts-prem{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 206px;
+  margin-left: 32px;
+}
+
+#skills-charts-code{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 188px;
+  margin-left: 32px;
+  margin-top: 10px;
+}
+.behance-link-footer{
+  width: 100%;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  margin-top: 42px;
+  margin-bottom: 0;
+  background-color: #DDDEE0; 
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  line-height: 82px;
+  text-decoration: none;
+}
+
+.behance-link-footer a:link {
+    text-decoration: none;
+    color: #6B8CAB;
+}
+
+.behance-link-footer a:visited {
+    text-decoration: none;
+    color: #6B8CAB;
+}
+
+/*--------------------- hover settings -------------------------*/
+
+.grid {
+  margin-top: 17px;
+  margin-left: 6px;
+}
+
+.grid ul {
+  width: 99%; 
+}
+
+
+.rig {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+}
+
+.rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width: 30%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding: 8px;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #000 no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 20px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px; 
+    letter-spacing: 0.3px;
+    line-height: 82px;
+    text-decoration: none;
+    font-weight:normal!important;
+    top:40%;
+    color:#fff;
+    opacity:0;
+    filter:alpha(opacity=0);
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+
+.rig-logo{
+  width: 20%;
+  text-align: center;
+  display:block;
+  padding: 0px 130px 30px;
+  top: 200px;
+
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+
+.img2{
+  display: none;
+}
+
+.img2:hover{
+  display: none;
+}
 
 } /* Close Google Nexus 10 Media Query */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Apple Ipad Landscape  */
 @media only screen and (min-width: 1024px) and (max-width: 1279px){
+  body{
+  width: 100%;
+  background-image: url('../img/bg-triangle3.png');
+  background-size: 83.89%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
 
+nav{
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-container{
+  width: 100%;
+  background-image: url('../img/bg-triangle3.png');
+  background-size: 40.5%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  position: relative;
+  left: 243px;
+  padding-top: 40px;
+  width: 52%;
+
+}
+
+.job-title {
+  margin-left: 52px;
+  margin-top: 153px;
+} 
+  
+.title1{
+  font-size: 37px;
+  margin-left: 24px
+}  
+
+.title2{
+  font-size: 42px;
+  margin-left: 24px;
+}  
+
+.dashb {
+  width: 3.9%;
+  top: 378px;
+  left: 356px;
+}
+.dashd {
+  width: 3.9%;
+  top: 485px;
+  left: 30px;
+}
+
+.about-pic{
+  width: 21%;
+  position: absolute;
+  z-index: 2;
+  right: 180px;
+  top: 336px;
+}
+
+.aboutpic-circle{
+  width: 46%;
+  position: absolute;
+  z-index: 3;
+  right: 62px;
+  top: 322px;
+}
+.name{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: bolder;
+  color: #b22649;
+}
+.about-me p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: lighter;
+}
+.about-me{
+  width: 445px;
+  margin-right: 76px;
+  padding-top: 41px;
+  float: right;
+  display: block;
+}
+
+.break1{
+  position: relative;
+  left: 42%;
+  top: 212px;
+  width: 15%;
+}
+/*---------------------portfolio section on home page-------------------------*/
+.portfolio-headings{
+  width: 100%;
+  height: 60px;
+  margin-top: 11px;
+}
+
+.heading-print{
+  display: block;
+  float: left;
+  margin-left: 358px;
+  margin-top: 45px; 
+}
+
+.heading-digital{
+  display: block;
+  float: right;
+  margin-right: 333px;
+  margin-top: 843px;
+}
+
+.portfolio-blocks{
+  width: 87%;
+  margin-top: -27px;
+  margin: 0 auto;
+}
+
+.print-design{
+  width: 95.9%;
+  display: block;
+  float: left;
+  margin-left: 9px;
+  margin-top: -862px;
+}
+
+.digital-design{
+  width: 92%;
+  display: block;
+  float: right;
+  margin-right: 33px;
+  margin-top: -45px;
+}
+
+.clearfix{
+  clear: both;
+}
+.heading-showreel{
+  padding-bottom: 57px;
+  margin-left: 339px;
+  margin-top: -52px;
+}
+
+.showreel{
+  width: 100%;
+  margin: calc(50% - 50%);
+  margin-top: -16px;
+  height: 500px;
+}
+
+.break2{
+  margin-left: 43%;
+  margin-top:  37px;
+  width: 15%;
+}
+
+/*---------------------contact section-------------------------*/
+
+.contact{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 58px;
+}
+
+.contact-left{
+  width: 69%;
+  display: block;
+  float: left;
+  margin-left: 157px; 
+  margin-top: 20px;
+}
+
+.contact-right{
+  width: 99%;
+  display: block;
+  float: right;
+  margin-right: 9px; 
+
+}
+
+.heading-contact{
+  margin-left: 403px;
+  margin-bottom: 30px;
+  margin-top: -19px;
+}
+
+.contact-subheading{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  margin-top: -23px;
+  text-align: center;
+}
+
+.contact-logo{
+  margin-left: 17.5%;
+  padding-top: 8px;
+  width: 65%;
+}
+.my-info{
+  width: 100%;
+  padding-top: 0px;
+}
+
+.contact h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: lighter;
+  line-height: 0;
+}
+
+.social-media{
+ width: 97%;
+ margin-top: 34px;
+ margin-left: 131px;
+}
+
+.social-media-icons{
+ width: 12%;
+ margin-left: 20px;
+}
+
+form{
+  padding-left: 50px;
+  margin-top: 28px;
+}
+.full-bar{
+  width: 82.7%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.brief-box{
+  width: 82.7%;
+  height: 150px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.half-bar1{
+  width: 40.3%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.half-bar2{
+  width: 40.3%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 0 0 5px 5px;
+}
+
+ input:focus:required {
+  outline: 1px solid #b22649;
+}
+
+input[type="text"] {
+  font-size:23px;
+  padding-left: 10px;
+}
+
+textarea[type="text"] {
+  font-size:23px;
+  padding-left: 10px;
+}
+ .brief-box:focus:required {
+  outline: 1px solid #b22649;
+}
+
+.submit-button{
+  display: block;
+  float: right;
+  margin-right: 46px;
+  margin-top: -359px;
+  width: 10%;
+  height: 355px;
+  border-radius: 2px;
+  border: none;
+  background-color: #DDDEE0;
+}
+
+span.button-arrow{
+  font-size: 50px;
+  color: #6B8CAB;
+
+}
+
+span.button-arrow:hover{
+  color: #b22649;
+
+}
+ footer{
+  width: 100%;
+  height: 88px;
+  margin: 0;
+  padding: 0;
+  margin-top: 480px;
+  background-color: #DDDEE0; 
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  line-height: 82px;
+  text-decoration: none;
+
+ }
+/*--------------------- print portfolio -------------------------*/
+
+.port-headings{
+  width: 23%;
+  margin-top: 23px;
+  margin-left: 402px;
+
+}
+.plus-pic{
+  width: 4%;
+  position: absolute;
+  z-index: 3;
+  right: 9px;
+  top: 1180px;
+}
+
+.break3{
+  position: relative;
+  left: 43%;
+  top: -102px;
+  width: 15%;
+}
+.heading-skills{
+  margin-left: 291px;
+  margin-top: 95px;
+}
+
+.skills-box{
+  width: 100.5%;
+  margin: 0 auto;
+  margin-top: 38px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+}
+
+.skill-charts{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 206px;
+  margin-left: 34px;
+}
+.skill-charts-illust{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 206px;
+  margin-left: 34px;
+  margin-top: 11px;
+}
+.skill-charts-prem{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 206px;
+  margin-left: 32px;
+}
+
+#skills-charts-code{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 190px;
+  margin-left: 32px;
+}
+.behance-link-footer{
+  width: 100%;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 4px;
+  margin-top: 42px;
+  margin-bottom: 0;
+  background-color: #DDDEE0; 
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  line-height: 82px;
+  text-decoration: none;
+}
+
+.behance-link-footer a:link {
+    text-decoration: none;
+    color: #6B8CAB;
+}
+
+.behance-link-footer a:visited {
+    text-decoration: none;
+    color: #6B8CAB;
+}
+
+/*--------------------- hover settings -------------------------*/
+
+.grid {
+  margin-top: 17px;
+}
+
+.grid ul {
+  width: 99%; 
+}
+
+
+.rig {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+}
+
+.rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width: 30%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding: 8px;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #000 no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 20px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px; 
+    letter-spacing: 0.3px;
+    line-height: 82px;
+    text-decoration: none;
+    font-weight:normal!important;
+    top:40%;
+    color:#fff;
+    opacity:0;
+    filter:alpha(opacity=0);
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+
+.rig-logo{
+  width: 20%;
+  text-align: center;
+  display:block;
+  padding: 0px 181px 30px;
+  top: 200px;
+
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+
+.img2{
+  display: none;
+}
+
+.img2:hover{
+  display: none;
+}
 } /* Close Apple Ipad Landscape Media Query */
 
 
@@ -690,7 +2355,7 @@ span.button-arrow:hover{
   
   /* --------index--------*/
   body{
-    background-size: 87.5%;
+    background-size: 88.5%;
   }
   nav{
     width: 110%;
@@ -799,6 +2464,7 @@ span.button-arrow:hover{
   }  
   .showreel {
     width: 102%;
+    height: 156px;
     margin: calc(50% - 51%);
     margin-top: -44px;
 }
@@ -990,7 +2656,7 @@ footer{
 @media only screen and (min-width: 360px) and (max-width: 374px){
   /* --------index--------*/
   body{
-    background-size: 87%;
+    background-size: 88%;
   }
   nav{
     width: 110%;
@@ -1046,7 +2712,7 @@ footer{
 
   .about-me {
     width: 246px;
-    margin-right: 50px;
+    margin-right: 55px;
     padding-top: 177px;
     float: right;
     display: block;
@@ -1099,6 +2765,7 @@ footer{
   }  
   .showreel {
     width: 106%;
+    height: 195px;
     margin: calc(50% - 53%);
     margin-top: -32px;
 }
@@ -1132,25 +2799,25 @@ footer{
     letter-spacing: 0.2px;
     font-size: 20px;
     text-align: center;
-    margin-left: -92px;
+    margin-left: -78px;
     font-size: 16.5px;
 }
   .social-media {
     width: 209%;
     margin-top: 24px;
-    margin-left: -52px;
+    margin-left: -46px;
 }
   .social-media-icons {
     width: 23%;
     margin-left: 0px;
 }
-.contact-right {
+  .contact-right {
     width: 110%;
     margin-right: 9px;
 }
 
 form {
-    padding-left: 3px;
+    padding-left: 5px;
     margin-left: 49px;
     margin-top: 19px;
 }
@@ -1162,6 +2829,7 @@ input[type="text"] {
 textarea[type="text"] {
     font-size: 17px;
     padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 .full-bar {
     width: 75%;
@@ -1273,19 +2941,616 @@ footer{
     font-size: 17.5px;
     padding-top: 23px;
 } 
-
 } /* Close Samsung Galaxy Smartphone Media Query */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Iphone 6 */
 @media only screen and (min-width: 375px) and (max-width: 413px){
+    /* --------index--------*/
+  body{
+    background-size: 87.7%;
+  }
+  nav{
+    width: 110%;
+    height: 109%;
+  }
 
+  nav ul li{
+    margin-left: -47px !important;
+  }
+  .logo {
+    position: relative;
+    left: 26px;
+    padding-top: 35px;
+    width: 88%;
+  }
+  
+  .job-title {
+    margin-left: 89px;
+    margin-top: 32px;
+  } 
+  
+  .title1{
+    font-size: 20px;
+    margin-left: 24px
+  }  
+  .title2{
+    font-size: 25px;
+    margin-left: 41px;
+  }  
+
+  .dashb {
+    width: 7.2%;
+    top: 183px;
+    left: 273px;
+  }
+  .dashd {
+    width: 7.2%;
+    position: absolute;
+    top: 254px;
+    left: 94px;
+  }
+  .about-pic {
+    width: 46%;
+    right: 94px;
+    top: 272px;
+  }  
+
+  .aboutpic-circle {
+    width: 96%;
+    right: 7px;
+    top: 266px;
+  }  
+
+  .about-me {
+    width: 246px;
+    margin-right: 55px;
+    padding-top: 177px;
+    float: right;
+    display: block;
+  }
+
+  .name p{
+    font-size: 16.3px;
+  }
+  .about-me p {
+    font-size: 15.5px;
+  }
+  .break1 {
+    position: absolute;
+    left: 76px;
+    top: 659px;
+    width: 50%;
+  }
+  .portfolio-headings{
+    width: 35%;
+    padding-top: 0;
+  }
+  .heading-print{
+    margin-left: 31px;
+    margin-top: 70px;
+    width: 229%;
+  }
+
+  .heading-digital {
+    margin-left: 31px;
+    margin-top: 365px;
+    display: block;
+    float: left;
+  }
+  .print-design {
+    width: 107.9%;
+    margin-left: -13px;
+    margin-top: -405px;
+  }
+  .digital-design {
+    width: 112%;
+    display: block;
+    float: right;
+    margin-right: -18px;
+    margin-top: -16px;
+  }
+  .heading-showreel {
+    margin-left: 48px;
+    margin-top: 10px;
+  }  
+  .showreel {
+    width: 106%;
+    height: 191px;
+    margin: calc(50% - 53%);
+    margin-top: -32px;
+}
+  .break2 {
+    margin-left: 24%;
+    margin-top: 30px;
+    width: 50%;
+}
+  .heading-contact {
+    margin-left: 68px;
+    margin-bottom: 39px;
+    margin-top: -35px;
+}
+  .contact-subheading{
+   font-size: 15.5px;
+   margin-top: -31px;
+   margin-left: 1px;
+}
+
+.my-info {
+    width: 100%;
+    padding-top: 0px;
+    margin-left: 42px;
+}
+  .contact-logo {
+    margin-left: -57px;
+    padding-top: 16px;
+    width: 214%;
+}
+  .contact h4{
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -78px;
+    font-size: 16.5px;
+}
+  .social-media {
+    width: 209%;
+    margin-top: 24px;
+    margin-left: -46px;
+}
+  .social-media-icons {
+    width: 23%;
+    margin-left: 0px;
+}
+  .contact-right {
+    width: 110%;
+    margin-right: 9px;
+}
+.contact-left {
+    width: 30%;
+    display: block;
+    float: left;
+    margin-left: 124px;
+}
+
+form {
+    padding-left: 5px;
+    margin-left: 49px;
+    margin-top: 19px;
+}
+input[type="text"] {
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+textarea[type="text"] {
+    font-size: 17px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.full-bar {
+    width: 75%;
+    height: 40px;
+    margin: 5px 0 5px 0;
+}
+.brief-box {
+    width: 75%;
+    height: 80px;
+    margin: 5px 0 5px 0;
+}
+.half-bar1 {
+    width: 75%;
+    height: 40px;
+    margin: 5px 0 5px 0;
+}  
+.half-bar2 {
+    width: 75%;
+    height: 40px;
+    margin: 5px 0 5px 0;
+}
+.submit-button {
+    display: block;
+    width: 99.25%;
+}
+.submit-button {
+    display: block;
+    float: right;
+    margin-right: 3px;
+    margin-top: -312px;
+    height: 309px;
+    width: 17%;
+} 
+footer{
+    margin-top: 205px;
+    font-size: 12px;
+}    
+
+/* --------portfolio pages--------*/    
+
+ .port-headings {
+    width: 64%;
+    margin-top: 17px;
+    margin-left: 62px;
+}
+
+.grid {
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.grid ul {
+    width: 90%;
+}
+#rig li {
+    width: 103%;
+}
+.rig-logo{
+     padding: 0px 115px;
+     margin-top: -23px;
+}
+.plus-pic {
+    width: 9%;
+    position: absolute;
+    z-index: 3;
+    right: 6px;
+    top: 1633px;
+}
+.break3 {
+    position: relative;
+    left: 89px;
+    top: 24px;
+    width: 50%;
+}
+.heading-skills {
+    margin-left: 113px;
+    margin-top: 47px;
+}
+
+.skills-box {
+    width: 55.5%;
+    margin-left: 95px;
+    margin-top: 26px;
+}
+
+.skill-charts {
+    margin: 0 auto;
+    width: 150px;
+    margin-left: 16px;
+}
+.skill-charts-illust{
+    margin: 0 auto;
+    width: 159px;
+    margin-left: 14px;
+}
+
+.skill-charts-prem{
+    margin: 0 auto;
+    width: 157px;
+    margin-left: 14px;
+}
+.behance-link-footer {
+    height: 105px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.behance-link-footer p{
+    font-size: 17.5px;
+    padding-top: 20px;
+}
 } /* Close IPhone 6 Smartphone Media Query */
+
+
+
+
+
+
+
+
+
+
 
 
 /* Iphone 6 Plus */
 @media only screen and (min-width: 414px) and (max-width: 450px){
+      /* --------index--------*/
+  body{
+    background-size: 87.3%;
+  }
+  nav{
+    width: 110%;
+    height: 109%;
+  }
 
+  nav ul li{
+    margin-left: -47px !important;
+  }
+  .logo {
+    position: relative;
+    left: 26px;
+    padding-top: 35px;
+    width: 88%;
+  }
+  
+  .job-title {
+    margin-left: 107px;
+    margin-top: 29px;
+  } 
+  
+  .title1{
+    font-size: 20px;
+    margin-left: 24px
+  }  
+  .title2{
+    font-size: 25px;
+    margin-left: 41px;
+  }  
+
+  .dashb {
+    width: 7.2%;
+    top: 192px;
+    left: 285px;
+  }
+  .dashd {
+    width: 7.2%;
+    position: absolute;
+    top: 261px;
+    left: 111px;
+  }
+  .about-pic {
+    width: 46%;
+    right: 104px;
+    top: 288px;
+  }  
+
+  .aboutpic-circle {
+    width: 96%;
+    right: 9px;
+    top: 281px;
+  }  
+
+  .about-me {
+    width: 320px;
+    margin-right: 48px;
+    padding-top: 199px;
+    float: right;
+    display: block;
+  }
+
+  .name p{
+    font-size: 16.3px;
+  }
+  .about-me p {
+    font-size: 15.5px;
+  }
+  .break1 {
+    position: absolute;
+    left: 100px;
+    top: 667px;
+    width: 50%;
+  }
+  .portfolio-headings{
+    width: 35%;
+    padding-top: 0;
+  }
+  .heading-print{
+    margin-left: 38px;
+    margin-top: 86px;
+    width: 229%;
+  }
+
+  .heading-digital {
+    margin-left: 46px;
+    margin-top: 409px;
+    display: block;
+    float: left;
+  }
+  .print-design {
+    width: 107.9%;
+    margin-left: -13px;
+    margin-top: -449px;
+  }
+  .digital-design {
+    width: 112%;
+    display: block;
+    float: right;
+    margin-right: -18px;
+    margin-top: -16px;
+  }
+  .heading-showreel {
+    margin-left: 67px;
+    margin-top: 1px;
+  }  
+  .showreel {
+    width: 106%;
+    height: 224px;
+    margin: calc(50% - 53%);
+    margin-top: -29px;
+}
+  .break2 {
+    margin-left: 25%;
+    margin-top: 41px;
+    width: 50%;
+}
+  .heading-contact {
+    margin-left: 96px;
+    margin-bottom: 39px;
+    margin-top: -32px;
+}
+  .contact-subheading{
+   font-size: 15.5px;
+   margin-top: -31px;
+   margin-left: 5px;
+}
+
+.my-info {
+    width: 100%;
+    padding-top: 0px;
+    margin-left: 67px;
+}
+  .contact-logo {
+    margin-left: -40px;
+    padding-top: 16px;
+    width: 214%;
+}
+  .contact h4{
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -78px;
+    font-size: 16.5px;
+}
+  .social-media {
+    width: 209%;
+    margin-top: 24px;
+    margin-left: -36px;
+}
+  .social-media-icons {
+    width: 23%;
+    margin-left: 0px;
+}
+  .contact-right {
+    width: 110%;
+    margin-right: 9px;
+}
+
+form {
+    padding-left: 5px;
+    margin-left: 58px;
+    margin-top: 19px;
+}
+input[type="text"] {
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+textarea[type="text"] {
+    font-size: 17px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.full-bar {
+    width: 75%;
+    height: 40px;
+    margin: 5px 0 5px 0;
+}
+.brief-box {
+    width: 75%;
+    height: 80px;
+    margin: 5px 0 5px 0;
+}
+.half-bar1 {
+    width: 75%;
+    height: 40px;
+    margin: 5px 0 5px 0;
+}  
+.half-bar2 {
+    width: 75%;
+    height: 40px;
+    margin: 5px 0 5px 0;
+}
+.submit-button {
+    display: block;
+    width: 99.25%;
+}
+.submit-button {
+    display: block;
+    float: right;
+    margin-right: 3px;
+    margin-top: -312px;
+    height: 309px;
+    width: 17%;
+} 
+footer{
+    margin-top: 239px;
+    font-size: 12px;
+}    
+
+/* --------portfolio pages--------*/    
+
+ .port-headings {
+    width: 64%;
+    margin-top: 17px;
+    margin-left: 70px;
+}
+
+.grid {
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.grid ul {
+    width: 90%;
+}
+#rig li {
+    width: 103%;
+}
+.rig-logo{
+     padding: 0px 135px;
+     margin-top: -23px;
+}
+.plus-pic {
+    width: 9%;
+    position: absolute;
+    z-index: 3;
+    right: 6px;
+    top: 1800px;
+}
+.break3 {
+    position: relative;
+    left: 98px;
+    top: 28px;
+    width: 50%;
+}
+.heading-skills {
+    margin-left: 135px;
+    margin-top: 59px;
+}
+
+.skills-box {
+    width: 55.5%;
+    margin-left: 109px;
+    margin-top: 26px;
+}
+
+.skill-charts {
+    margin: 0 auto;
+    width: 150px;
+    margin-left: 16px;
+}
+.skill-charts-illust{
+    margin: 0 auto;
+    width: 159px;
+    margin-left: 14px;
+}
+
+.skill-charts-prem{
+    margin: 0 auto;
+    width: 157px;
+    margin-left: 14px;
+}
+.behance-link-footer {
+    height: 87px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.behance-link-footer p{
+    font-size: 17.5px;
+    padding-top: 20px;
+}
 
 } /* Close IPhone 6 Plus Smartphone Media Query */
 
@@ -1293,7 +3558,297 @@ footer{
 
 /* Iphone 6 Plus Landscape */
 @media only screen and (min-width: 600px) and (max-width: 737px){
+   body{
+    background-size: 83.9%;
+  }
+  nav{
+    width: 110%;
+    height: 109%;
+  }
 
+  nav ul li{
+    margin-left: -47px !important;
+  }
+  .logo {
+    position: relative;
+    left: 230px;
+    padding-top: 26px;
+    width: 41%;
+  }
+  
+  .job-title {
+    margin-left: 67px;
+    margin-top: 59px;
+  } 
+  
+  .title1{
+    font-size: 20px;
+    margin-left: 24px
+  }  
+  .title2{
+    font-size: 25px;
+    margin-left: 25px;
+  }  
+
+  .dashb {
+    width: 3.8%;
+    top: 186px;
+    left: 248px;
+  }
+  .dashd {
+    width: 3.8%;
+    position: absolute;
+    top: 260px;
+    left: 55px;
+  }
+  .about-pic {
+    width: 18%;
+    right: 118px;
+    top: 158px;
+  }  
+
+  .aboutpic-circle {
+    width: 40%;
+    right: 43px;
+    top: 149px;
+  }  
+
+  .about-me {
+    width: 387px;
+    margin-right: 18px;
+    padding-top: 20px;
+    float: right;
+    display: block;
+  }
+
+  .name p{
+    font-size: 16.3px;
+  }
+  .about-me p {
+    font-size: 12.8px;
+  }
+  .break1 {
+    position: absolute;
+    left: 315px;
+    top: 416px;
+    width: 15%;
+  }
+  .portfolio-headings{
+    width: 35%;
+    padding-top: 0;
+  }
+  .heading-print{
+    margin-left: 218px;
+    margin-top: -141px;
+  }
+
+  .heading-digital {
+    margin-left: 209px;
+    margin-top: 546px;
+    display: block;
+    float: left;
+  }
+  .print-design {
+    width: 99%;
+    margin-left: 4px;
+    margin-top: -651px;
+  }
+  .digital-design {
+    width: 112%;
+    display: block;
+    float: right;
+    margin-right: -39px;
+    margin-top: -47px;
+  }
+  .heading-showreel {
+    margin-left: 213px;
+    margin-top: -36px;
+  }  
+  .showreel {
+    width: 106%;
+    margin: calc(50% - 53%);
+    margin-top: -29px;
+    height: 377px;
+}
+  .break2 {
+    margin-left: 43%;
+    margin-top: 41px;
+    width: 15%;
+}
+  .heading-contact {
+    margin-left: 256px;
+    margin-bottom: 39px;
+    margin-top: -43px;
+}
+  .contact-subheading{
+   font-size: 15.5px;
+   margin-top: -31px;
+   margin-left: 5px;
+}
+
+.my-info {
+    width: 100%;
+    padding-top: 0px;
+    margin-left: 67px;
+}
+.contact-logo {
+    margin-left: -40px;
+    padding-top: 16px;
+    width: 214%;
+}
+.contact h4{
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -78px;
+    font-size: 16.5px;
+}
+  .social-media {
+    width: 209%;
+    margin-top: 24px;
+    margin-left: -36px;
+}
+  .social-media-icons {
+    width: 23%;
+    margin-left: 0px;
+}
+
+.contact-left {
+    width: 19%;
+    display: block;
+    float: left;
+    margin-left: 260px;
+}
+.contact-right {
+    width: 100%;
+    margin-right: 9px;
+}
+
+form {
+    padding-left: 5px;
+    margin-left: 34px;
+    margin-top: 19px;
+}
+input[type="text"] {
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+textarea[type="text"] {
+    font-size: 17px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.full-bar {
+    width: 85%;
+    height: 40px;
+    margin: 5px 0 5px 0;
+}
+.brief-box {
+    width: 85%;
+    height: 80px;
+    margin: 5px 0 5px 0;
+}
+.half-bar1 {
+    width: 41%;
+    height: 40px;
+    margin: 5px 5px 5px 0;
+}  
+.half-bar2 {
+    width: 41%;
+    height: 40px;
+    margin: 5px 0 5px 0;
+}
+.submit-button {
+    display: block;
+    width: 99.25%;
+}
+.submit-button {
+    display: block;
+    float: right;
+    margin-right: 17px;
+    margin-top: -259px;
+    height: 254px;
+    width: 9%;
+} 
+footer{
+    margin-top: 200px;
+    font-size: 12px;
+}    
+
+/* --------portfolio pages--------*/    
+
+ .port-headings {
+    width: 31%;
+    margin-top: 17px;
+    margin-left: 266px;
+}
+
+.grid {
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.grid ul {
+    width: 90%;
+}
+#rig li {
+    width: 103%;
+}
+.rig-logo{
+     padding: 0px 255px;
+     margin-top: -23px;
+}
+.plus-pic {
+    width: 6%;
+    position: absolute;
+    z-index: 3;
+    right: 12px;
+    top: 3042px;
+}
+.break3 {
+    position: relative;
+    left: 313px;
+    top: -112px;
+    width: 15%;
+}
+.heading-skills {
+    margin-left: 185px;
+    margin-top: 102px;
+}
+
+.skills-box {
+    width: 105.5%;
+    margin-left: 113px;
+    margin-top: 26px;
+}
+
+.skill-charts {
+    margin: 0 auto;
+    width: 150px;
+    margin-left: 16px;
+}
+.skill-charts-illust{
+    margin: 0 auto;
+    width: 159px;
+    margin-left: 14px;
+}
+
+.skill-charts-prem{
+    margin: 0 auto;
+    width: 157px;
+    margin-left: 14px;
+}
+.behance-link-footer {
+    height: 61px;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.behance-link-footer p{
+    font-size: 17.5px;
+    padding-top: 20px;
+}
 } /* Close IPhone 6 Plus Landscape Smartphone Media Query */
 
 
@@ -1304,7 +3859,563 @@ footer{
 
 /* Laptop HiDPI*/
 @media only screen and (min-width: 1440px) and (max-width: 1470px) {
+  body{
+  width: 100%;
+  background-image: url('../img/bg-triangle3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -228.5%;
+  margin: 0;
+  padding: 0;
+}
 
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-container{
+  width: 100%;
+  background-image: url('../img/bg-triangle3.png');
+  background-size: 40.5%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  position: relative;
+  left: 485px;
+  padding-top: 79px;
+  width: 34%;
+
+}
+.dash-lines{
+  left: 95px;
+  top: 460px;
+  position: absolute;
+  z-index: 2;
+}
+
+.job-title{
+  margin-left: 132px;
+  margin-top: 205px;
+}
+
+.title1{
+  color: #6B8CAB;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  letter-spacing: 0.2px;
+  line-height: 0;
+}
+
+.title2{
+  color: #6B8CAB;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+}
+
+.dashb{
+  width: 2.5%;
+  position: absolute;
+  top: 449px;
+  left: 475px;
+}
+.dashd{
+  width: 2.5%;
+  position: absolute;
+  top: 569px;
+  left: 84px;
+}
+.about-pic{
+  width: 17%;
+  position: absolute;
+  z-index: 2;
+  right: 294px;
+  top: 386px;
+}
+
+.aboutpic-circle{
+  width: 36%;
+  position: absolute;
+  z-index: 3;
+  right: 168px;
+  top: 375px;
+}
+.name{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: bolder;
+  color: #b22649;
+}
+.about-me p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 21px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: lighter;
+}
+.about-me{
+  width: 630px;
+  margin-right: 99px;
+  padding-top: 34px;
+  float: right;
+  display: block;
+}
+
+.break1{
+  position: relative;
+  left: 42%;
+  top: 219px;
+  width: 15%;
+}
+/*---------------------portfolio section on home page-------------------------*/
+.portfolio-headings{
+  width: 100%;
+  height: 60px;
+  margin-top: 252px;
+}
+
+.heading-print{
+  display: block;
+  float: left;
+  margin-left: 180px;
+}
+
+.heading-digital{
+  display: block;
+  float: right;
+  margin-right: 250px
+}
+
+.portfolio-blocks{
+  width: 87%;
+  margin-top: -27px;
+  margin: 0 auto;
+}
+
+.print-design{
+  width: 39.9%;
+  display: block;
+  float: left;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+.digital-design{
+  width: 53%;
+  display: block;
+  float: right;
+  margin-right: -18px;
+}
+
+.clearfix{
+  clear: both;
+}
+.heading-showreel{
+  padding-bottom: 57px;
+  margin-left: 529px;
+  margin-top: 39px;
+}
+
+.showreel{
+  width: 100%;
+  margin: calc(50% - 50%);
+  margin-top: -6px;
+  height: 700px;
+}
+
+.break2{
+  margin-left: 43%;
+  margin-top:  29px;
+  width: 15%;
+}
+
+/*---------------------contact section-------------------------*/
+
+.contact{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 58px;
+}
+
+.contact-left{
+  width: 30%;
+  display: block;
+  float: left;
+  margin-left: 112px; 
+}
+
+.contact-right{
+  width: 60%;
+  display: block;
+  float: right;
+  margin-right: 9px; 
+
+}
+
+.heading-contact{
+  margin-left: 616px;
+  margin-bottom: 30px;
+  margin-top: -19px;
+}
+
+.contact-subheading{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  margin-top: -23px;
+  text-align: center;
+}
+
+.contact-logo{
+  margin-left: 17.5%;
+  padding-top: 8px;
+  width: 65%;
+}
+.my-info{
+  width: 100%;
+  padding-top: 0px;
+}
+
+.contact h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: lighter;
+  line-height: 0;
+}
+
+.social-media{
+ width: 97%;
+ margin-top: 32px;
+ margin-left: 34px;
+}
+
+.social-media-icons{
+ width: 15%;
+ margin-left: 20px;
+}
+
+form{
+  padding-left: 50px;
+}
+.full-bar{
+  width: 70.5%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.brief-box{
+  width: 70.5%;
+  height: 150px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.half-bar1{
+  width: 34%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.half-bar2{
+  width: 34%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 0 0 5px 5px;
+}
+
+ input:focus:required {
+  outline: 1px solid #b22649;
+}
+
+input[type="text"] {
+  font-size:23px;
+  padding-left: 10px;
+}
+
+textarea[type="text"] {
+  font-size:23px;
+  padding-left: 10px;
+}
+ .brief-box:focus:required {
+  outline: 1px solid #b22649;
+}
+
+.submit-button{
+  display: block;
+  float: right;
+  margin-right: 166px;
+  margin-top: -359px;
+  width: 6%;
+  height: 355px;
+  border-radius: 2px;
+  border: none;
+  background-color: #DDDEE0;
+}
+
+span.button-arrow{
+  font-size: 50px;
+  color: #6B8CAB;
+
+}
+
+span.button-arrow:hover{
+  color: #b22649;
+
+}
+ footer{
+  width: 100%;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+  background-color: #DDDEE0; 
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  line-height: 82px;
+  text-decoration: none;
+
+ }
+/*--------------------- print portfolio -------------------------*/
+
+.port-headings{
+  width: 15%;
+  margin-top: 23px;
+  margin-left: 603px;
+
+}
+.plus-pic{
+  width: 4%;
+  position: absolute;
+  z-index: 3;
+  right: 85px;
+  top: 726px;
+}
+
+.break3{
+  position: relative;
+  left: 42%;
+  top: -120px;
+  width: 15%;
+}
+.heading-skills{
+  margin-left: 429px;
+  margin-top: 156px;
+}
+
+.skills-box{
+  width: 71.5%;
+  margin: 0 auto;
+  margin-top: 38px;
+  margin-bottom: 10px;
+}
+
+.skill-charts{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 300px;
+  margin-left: 34px;
+}
+.skill-charts-illust{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 306px;
+  margin-left: 34px;
+  margin-top: 6px;
+}
+.skill-charts-prem{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 314px;
+  margin-left: 32px;
+}
+#skills-charts-code{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 299px;
+  margin-left: 32px;
+}
+.behance-link-footer{
+  width: 100%;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+  margin-bottom: 0;
+  background-color: #DDDEE0; 
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  line-height: 82px;
+  text-decoration: none;
+}
+
+.behance-link-footer a:link {
+    text-decoration: none;
+    color: #6B8CAB;
+}
+
+.behance-link-footer a:visited {
+    text-decoration: none;
+    color: #6B8CAB;
+}
+
+/*--------------------- hover settings -------------------------*/
+
+.grid {
+  margin-top: 71px;
+}
+
+.grid ul {
+  width: 85%; 
+}
+
+
+.rig {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+}
+
+.rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width: 30%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding: 8px;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #000 no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 20px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px; 
+    letter-spacing: 0.3px;
+    line-height: 82px;
+    text-decoration: none;
+    font-weight:normal!important;
+    top:40%;
+    color:#fff;
+    opacity:0;
+    filter:alpha(opacity=0);
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+
+.rig-logo{
+  width: 20%;
+  text-align: center;
+  display:block;
+  padding: 0px 130px 30px;
+  top: 200px;
+
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:33%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+
+.img2{
+  display: none;
+}
+
+.img2:hover{
+  display: none;
+}
 }/* Laptop HiDPI media query close*/
 
 
@@ -1312,11 +4423,562 @@ footer{
 /*  ---------------------------------- Net voor imac media query 1880-1919 ---------------------------------- */
 
 @media only screen and (min-width: 1880px) and (max-width: 1919px){
+
 }/* Net voor imac media query close */
 
 
 /*  ---------------------------------- Media Queries ---------------------------------- */
 /*  ---------------------------------- Imac 1920 x 1080 ---------------------------------- */
-@media only screen and (min-width: 1920px) and (max-width: 2080px){
+@media only screen and (min-width: 1920px) and (max-width: 1080px){
+  body{
+  width: 100%;
+  background-image: url('../img/bg-triangle3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -145.5%;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-container{
+  width: 100%;
+  background-image: url('../img/bg-triangle3.png');
+  background-size: 40.5%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  position: relative;
+  left: 637px;
+  padding-top: 79px;
+  width: 34%;
+
+}
+.dash-lines{
+  left: 95px;
+  top: 460px;
+  position: absolute;
+  z-index: 2;
+}
+
+.job-title{
+  margin-left: 209px;
+  margin-top: 255px;
+}
+
+.title1{
+  color: #6B8CAB;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  letter-spacing: 0.2px;
+  line-height: 0;
+}
+
+.title2{
+  color: #6B8CAB;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+}
+
+.dashb{
+  width: 2.2%;
+  position: absolute;
+  top: 566px;
+  left: 558px;
+}
+.dashd{
+  width: 2.2%;
+  position: absolute;
+  top: 691px;
+  left: 153px;
+}
+.about-pic{
+  width: 15%;
+  position: absolute;
+  z-index: 2;
+  right: 346px;
+  top: 456px;
+  
+}
+
+.aboutpic-circle{
+  width: 33%;
+  position: absolute;
+  z-index: 3;
+  right: 186px;
+  top: 438px;
+}
+.name{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: bolder;
+  color: #b22649;
+}
+.about-me p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 21px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: lighter;
+}
+.about-me{
+  width: 510px;
+  margin-right: 242px;
+  padding-top: 40px;
+  float: right;
+  display: block;
+}
+
+.break1{
+  position: relative;
+  left: 43%;
+  top: 252px;
+  width: 14%;
+}
+/*---------------------portfolio section on home page-------------------------*/
+.portfolio-headings{
+  width: 100%;
+  height: 60px;
+  margin-top: 342px;
+}
+
+.heading-print{
+  display: block;
+  float: left;
+  margin-left: 343px;
+}
+
+.heading-digital{
+  display: block;
+  float: right;
+  margin-right: 440px
+}
+
+.portfolio-blocks{
+  width: 87%;
+  margin-top: -27px;
+  margin: 0 auto;
+}
+
+.print-design{
+  width: 39.9%;
+  display: block;
+  float: left;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+.digital-design{
+  width: 53%;
+  display: block;
+  float: right;
+  margin-right: -18px;
+}
+
+.clearfix{
+  clear: both;
+}
+.heading-showreel{
+  padding-bottom: 57px;
+  margin-left: 727px;
+  margin-top: 99px;
+}
+
+.showreel{
+  width: 95%;
+  margin: calc(50% - 47%);
+  margin-top: 51px;
+}
+
+.break2{
+  margin-left: 43%;
+  margin-top:  -2px;
+  width: 14%;
+}
+
+/*---------------------contact section-------------------------*/
+
+.contact{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 58px;
+}
+
+.contact-left{
+  width: 30%;
+  display: block;
+  float: left;
+  margin-left: 112px; 
+}
+
+.contact-right{
+  width: 60%;
+  display: block;
+  float: right;
+  margin-right: 9px; 
+
+}
+
+.heading-contact{
+  margin-left: 850px;
+  margin-bottom: 60px;
+}
+
+.contact-subheading{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  margin-top: -23px;
+  text-align: center;
+}
+
+.contact-logo{
+  margin-left: 17.5%;
+  padding-top: 8px;
+  width: 65%;
+}
+.my-info{
+  width: 100%;
+  padding-top: 0px;
+}
+
+.contact h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px; 
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-weight: lighter;
+  line-height: 0;
+}
+
+.social-media{
+ width: 97%;
+ margin-top: 32px;
+ margin-left: 63px;
+}
+
+.social-media-icons{
+ width: 15%;
+ margin-left: 20px;
+}
+
+form{
+  padding-left: 50px;
+}
+.full-bar{
+  width: 70%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.brief-box{
+  width: 70%;
+  height: 150px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.half-bar1{
+  width: 34%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+}
+.half-bar2{
+  width: 34%;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 2px;
+  margin: 0 0 5px 5px;
+}
+
+ input:focus:required {
+  outline: 1px solid #b22649;
+}
+
+input[type="text"] {
+  font-size:23px;
+  padding-left: 10px;
+}
+
+textarea[type="text"] {
+  font-size:23px;
+  padding-left: 10px;
+}
+ .brief-box:focus:required {
+  outline: 1px solid #b22649;
+}
+
+.submit-button{
+  display: block;
+  float: right;
+  margin-right: 241px;
+  margin-top: -359px;
+  width: 6%;
+  height: 355px;
+  border-radius: 2px;
+  border: none;
+  background-color: #DDDEE0;
+}
+
+span.button-arrow{
+  font-size: 50px;
+  color: #6B8CAB;
+
+}
+
+span.button-arrow:hover{
+  color: #b22649;
+
+}
+ footer{
+  width: 100%;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  margin-top: 111px;
+  background-color: #DDDEE0; 
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  line-height: 82px;
+  text-decoration: none;
+
+ }
+/*--------------------- print portfolio -------------------------*/
+
+.port-headings{
+  width: 13%;
+  margin-top: 23px;
+  margin-left: 821px;
+
+}
+.plus-pic{
+  width: 4%;
+  position: absolute;
+  z-index: 3;
+  right: 100px;
+  top: 924px;
+}
+
+.break3{
+  position: relative;
+  left: 43%;
+  top: -97px;
+  width: 14%;
+}
+.heading-skills{
+  margin-left: 600px;
+  margin-top: 106px;
+}
+
+.skills-box{
+  width: 55.5%;
+  margin: 0 auto;
+  margin-top: 38px;
+  margin-bottom: 10px;
+}
+
+.skill-charts{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 300px;
+  margin-left: 34px;
+}
+.skill-charts-illust{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 300px;
+  margin-left: 34px;
+}
+.skill-charts-prem{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 314px;
+  margin-left: 32px;
+}
+
+.behance-link-footer{
+  width: 100%;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  margin-top: 86px;
+  margin-bottom: 0;
+  background-color: #DDDEE0; 
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.2px;
+  line-height: 82px;
+  text-decoration: none;
+}
+
+.behance-link-footer a:link {
+    text-decoration: none;
+    color: #6B8CAB;
+}
+
+.behance-link-footer a:visited {
+    text-decoration: none;
+    color: #6B8CAB;
+}
+
+/*--------------------- hover settings -------------------------*/
+
+.grid {
+  margin-top: 71px;
+}
+
+.grid ul {
+  width: 85%; 
+}
+
+
+.rig {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+}
+
+.rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width: 30%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding: 8px;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #000 no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 20px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px; 
+    letter-spacing: 0.3px;
+    line-height: 82px;
+    text-decoration: none;
+    font-weight:normal!important;
+    top:40%;
+    color:#fff;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+
+.rig-logo{
+  width: 20%;
+  text-align: center;
+  display:block;
+  padding: 0px 186px;
+  top: 200px;
+
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:33%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+
+.img2{
+  display: none;
+}
+
+.img2:hover{
+  display: none;
+}
+
 
 }/* Close Imac Media Query */
