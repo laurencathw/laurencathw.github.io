@@ -9,7 +9,7 @@ body{
 	background-image: url('../img/bg-triangle3.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-  background-position-x: -141.4%;
+  background-position-x: -136.4%;
 	margin: 0;
 	padding: 0;
 }
@@ -254,7 +254,7 @@ nav ul li a {
 }
 
 .showreel{
-  width: 95%;
+  width: 94%;
   margin: calc(50% - 47%);
   margin-top: 51px;
   height: 880px;
@@ -3858,6 +3858,588 @@ footer{
 /*  ---------------------------------- Laptops ---------------------------------- */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Laptop screens 1280px - 1439px */
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px){
+  body{
+    width: 100%;
+    background-image: url('../img/bg-triangle3.png');
+    background-size: 83%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio-container{
+    width: 100%;
+    background-image: url('../img/bg-triangle3.png');
+    background-size: 40.5%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo{
+    position: relative;
+    left: 443px;
+    padding-top: 45px;
+    width: 34%;
+  }
+  .dash-lines{
+    left: 95px;
+    top: 460px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .job-title{
+    margin-left: 97px;
+    margin-top: 192px;
+  }
+
+  .title1{
+    color: #6B8CAB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 45px;
+    letter-spacing: 0.2px;
+    line-height: 0;
+  }
+
+  .title2{
+    color: #6B8CAB;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+  }
+
+  .dashb{
+    width: 2.5%;
+    position: absolute;
+    top: 383px;
+    left: 437px;
+  }
+  .dashd{
+    width: 2.5%;
+    position: absolute;
+    top: 499px;
+    left: 55px;
+  }
+  .about-pic{
+    width: 17%;
+    position: absolute;
+    z-index: 2;
+    right: 244px;
+    top: 307px;
+  }
+
+  .aboutpic-circle{
+    width: 36%;
+    position: absolute;
+    z-index: 3;
+    right: 133px;
+    top: 297px;
+  }
+  .name{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px; 
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-weight: bolder;
+    color: #b22649;
+  }
+  .about-me p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 21px; 
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-weight: lighter;
+  }
+  .about-me{
+    width: 510px;
+    margin-right: 99px;
+    padding-top: 8px;
+    float: right;
+    display: block;
+  }
+
+  .break1{
+    position: relative;
+    left: 42%;
+    top: 213px;
+    width: 15%;
+  }
+/*---------------------portfolio section on home page-------------------------*/
+  .portfolio-headings{
+    width: 100%;
+    height: 60px;
+    margin-top: 252px;
+  }
+
+  .heading-print{
+    display: block;
+    float: left;
+    margin-left: 130px;
+  }
+
+  .heading-digital{
+    display: block;
+    float: right;
+    margin-right: 225px;
+  }
+
+  .portfolio-blocks{
+    width: 87%;
+    margin-top: -27px;
+    margin: 0 auto;
+  }
+
+  .print-design{
+    width: 41%;
+    display: block;
+    float: left;
+    margin-left: -15px;
+    margin-top: 50px;
+  }
+
+  .digital-design{
+    width: 57.5%;
+    display: block;
+    float: right;
+    margin-right: -20px;
+  }
+
+  .clearfix{
+    clear: both;
+  }
+  .heading-showreel{
+    padding-bottom: 57px;
+    margin-left: 461px;
+    margin-top: 28px;
+  }
+
+  .showreel{
+    width: 100%;
+    margin: calc(50% - 50%);
+    margin-top: -6px;
+    height: 629px;
+  }
+
+  .break2{
+    margin-left: 43%;
+    margin-top:  29px;
+    width: 15%;
+  }
+
+/*---------------------contact section-------------------------*/
+
+  .contact{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 58px;
+  }
+
+  .contact-left{
+    width: 32%;
+    display: block;
+    float: left;
+    margin-left: 82px; 
+    margin-top: 44px;
+  }
+
+  .contact-right{
+    width: 60%;
+    display: block;
+    float: right;
+    margin-right: 9px; 
+
+  }
+
+  .heading-contact{
+    margin-left: 537px;
+    margin-bottom: 30px;
+    margin-top: -32px;
+  }
+
+  .contact-subheading{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px; 
+    letter-spacing: 0.2px;
+    margin-top: -23px;
+    margin-left: 9px;
+    text-align: center;
+  }
+
+  .contact-logo{
+    margin-left: 17.5%;
+    padding-top: 8px;
+    width: 65%;
+  }
+  .my-info{
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .contact h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px; 
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 0;
+  }
+
+  .social-media{
+   width: 97%;
+   margin-top: 32px;
+   margin-left: 29px;
+  }
+
+  .social-media-icons{
+   width: 15%;
+   margin-left: 20px;
+  }
+
+  form{
+    padding-left: 50px;
+  }
+  .full-bar{
+    width: 70.5%;
+    height: 50px;
+    border: black solid 1px;
+    border-radius: 2px;
+    margin: 5px 0 5px 0;
+  }
+  .brief-box{
+    width: 70.5%;
+    height: 150px;
+    border: black solid 1px;
+    border-radius: 2px;
+    margin: 5px 0 5px 0;
+  }
+  .half-bar1{
+    width: 34%;
+    height: 50px;
+    border: black solid 1px;
+    border-radius: 2px;
+    margin: 5px 0 5px 0;
+  }
+  .half-bar2{
+    width: 34%;
+    height: 50px;
+    border: black solid 1px;
+    border-radius: 2px;
+    margin: 0 0 5px 5px;
+  }
+
+   input:focus:required {
+    outline: 1px solid #b22649;
+  }
+
+  input[type="text"] {
+    font-size:23px;
+    padding-left: 10px;
+  }
+
+  textarea[type="text"] {
+    font-size:23px;
+    padding-left: 10px;
+  }
+   .brief-box:focus:required {
+    outline: 1px solid #b22649;
+  }
+
+  .submit-button{
+    display: block;
+    float: right;
+    margin-right: 126px;
+    margin-top: -359px;
+    width: 8%;
+    height: 355px;
+    border-radius: 2px;
+    border: none;
+    background-color: #DDDEE0;
+  }
+
+  span.button-arrow{
+    font-size: 50px;
+    color: #6B8CAB;
+
+  }
+
+  span.button-arrow:hover{
+    color: #b22649;
+
+  }
+   footer{
+    width: 100%;
+    height: 78px;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    background-color: #DDDEE0; 
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px; 
+    letter-spacing: 0.2px;
+    line-height: 82px;
+    text-decoration: none;
+
+   }
+/*--------------------- print portfolio -------------------------*/
+
+  .port-headings{
+    width: 15%;
+    margin-top: 19px;
+    margin-left: 546px;
+
+  }
+  .plus-pic{
+    width: 4%;
+    position: absolute;
+    z-index: 3;
+    right: 68px;
+    top: 657px;
+  }
+
+  .break3{
+    position: relative;
+    left: 42%;
+    top: -117px;
+    width: 15%;
+  }
+  .heading-skills{
+    margin-left: 374px;
+    margin-top: 136px;
+  }
+
+  .skills-box{
+    width: 81.5%;
+    margin-left: 122px;
+    margin-top: 38px;
+    margin-bottom: 10px;
+  }
+
+  .skill-charts{
+    display: block;
+    margin: 0 auto;
+    float: left;
+    width: 300px;
+    margin-left: 34px;
+  }
+  .skill-charts-illust{
+    display: block;
+    margin: 0 auto;
+    float: left;
+    width: 306px;
+    margin-left: 34px;
+    margin-top: 6px;
+  }
+  .skill-charts-prem{
+    display: block;
+    margin: 0 auto;
+    float: left;
+    width: 314px;
+    margin-left: 32px;
+  }
+  #skills-charts-code{
+    display: block;
+    margin: 0 auto;
+    float: left;
+    width: 299px;
+    margin-left: 32px;
+  }
+  .behance-link-footer{
+    width: 100%;
+    height: 78px;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 0;
+    background-color: #DDDEE0; 
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px; 
+    letter-spacing: 0.2px;
+    line-height: 82px;
+    text-decoration: none;
+  }
+
+  .behance-link-footer a:link {
+      text-decoration: none;
+      color: #6B8CAB;
+  }
+
+  .behance-link-footer a:visited {
+      text-decoration: none;
+      color: #6B8CAB;
+  }
+
+  /*--------------------- hover settings -------------------------*/
+
+  .grid {
+    margin-top: 71px;
+  }
+
+  .grid ul {
+    width: 85%; 
+  }
+
+
+  .rig {
+      max-width:100%;
+      margin:0 auto; /*center aligned*/
+      padding:0;
+      font-size:0; /* Remember to change it back to normal font size if have captions */
+      list-style:none;
+  }
+
+  .rig li {
+      display: inline-block;
+      *display:inline;/*for IE6 - IE7*/
+      width: 30%;
+      vertical-align:middle;
+      box-sizing:border-box;
+      margin:0;
+      padding: 8px;
+  }
+        
+  /* The wrapper for each item */
+  .rig-cell {
+      /*margin:12px;
+      box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+      display:block;
+      position: relative;
+      overflow:hidden;
+  }
+        
+  /* If have the image layer */
+  .rig-img {
+      display:block;
+      width: 100%;
+      height: auto;
+      border:none;
+      transform:scale(1);
+      transition:all 1s;
+  }
+
+  #rig li:hover .rig-img {
+      transform:scale(1.05);
+  }
+        
+  /* If have the overlay layer */
+  .rig-overlay {
+      position: absolute;
+      display:block;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      background: #000 no-repeat center 20%;
+      background-size:50px 50px;
+      opacity:0;
+      filter:alpha(opacity=0);/*For IE6 - IE8*/
+      transition:all 0.6s;
+  }
+
+  #rig li:hover .rig-overlay {
+      opacity:0.8;
+  }
+
+  /* If have captions */
+  .rig-text {
+      display:block;
+      padding:0 20px;
+      box-sizing:border-box;
+      position:absolute;
+      left:0;
+      width:100%;
+      text-align:center;
+      text-transform:capitalize;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 20px; 
+      letter-spacing: 0.3px;
+      line-height: 82px;
+      text-decoration: none;
+      font-weight:normal!important;
+      top:40%;
+      color:#fff;
+      opacity:0;
+      filter:alpha(opacity=0);
+      transform:translateY(-20px);
+      transition:all .3s;
+  }
+
+  .rig-logo{
+    width: 20%;
+    text-align: center;
+    display:block;
+    padding: 0px 118px 90px;
+    top: 200px;
+
+  }
+  #rig li:hover .rig-text {
+      transform:translateY(0px);
+      opacity:0.9;
+  }
+
+
+  @media (max-width: 9000px) {
+      #rig li {
+          width:33%;
+      }
+  }
+
+  @media (max-width: 700px) {
+      #rig li {
+          width:33.33%;
+      }
+  }
+
+  @media (max-width: 550px) {
+      #rig li {
+          width:50%;
+      }
+  }
+
+
+  .img2{
+    display: none;
+  }
+
+  .img2:hover{
+    display: none;
+  }
+
+} /* Close laptop screens 1280px - 1439px */
+
+
+
 /* Laptop HiDPI*/
 @media only screen and (min-width: 1440px) and (max-width: 1470px) {
   body{
@@ -3865,7 +4447,7 @@ footer{
   background-image: url('../img/bg-triangle3.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: -228.5%;
+  background-position-x: -214.5%;
   margin: 0;
   padding: 0;
 }
@@ -4430,7 +5012,7 @@ span.button-arrow:hover{
 
 /*  ---------------------------------- Media Queries ---------------------------------- */
 /*  ---------------------------------- Imac 1920 x 1080 ---------------------------------- */
-@media only screen and (min-width: 1920px) and (max-width: 1080px){
+/*@media only screen and (min-width: 1920px) and (max-width: 1080px){
   body{
   width: 100%;
   background-image: url('../img/bg-triangle3.png');
@@ -4549,7 +5131,7 @@ span.button-arrow:hover{
   width: 14%;
 }
 /*---------------------portfolio section on home page-------------------------*/
-.portfolio-headings{
+/*.portfolio-headings{
   width: 100%;
   height: 60px;
   margin-top: 342px;
@@ -4607,11 +5189,11 @@ span.button-arrow:hover{
   margin-left: 43%;
   margin-top:  -2px;
   width: 14%;
-}
+}*/
 
 /*---------------------contact section-------------------------*/
 
-.contact{
+/*.contact{
   width: 100%;
   height: 500px;
   margin: 0 auto;
@@ -4761,10 +5343,10 @@ span.button-arrow:hover{
   line-height: 82px;
   text-decoration: none;
 
- }
+ }*/
 /*--------------------- print portfolio -------------------------*/
 
-.port-headings{
+/*.port-headings{
   width: 13%;
   margin-top: 23px;
   margin-left: 821px;
@@ -4842,11 +5424,11 @@ span.button-arrow:hover{
 .behance-link-footer a:visited {
     text-decoration: none;
     color: #6B8CAB;
-}
+}*/
 
 /*--------------------- hover settings -------------------------*/
 
-.grid {
+/*.grid {
   margin-top: 71px;
 }
 
@@ -4857,15 +5439,15 @@ span.button-arrow:hover{
 
 .rig {
     max-width:100%;
-    margin:0 auto; /*center aligned*/
+    margin:0 auto; 
     padding:0;
-    font-size:0; /* Remember to change it back to normal font size if have captions */
+    font-size:0; 
     list-style:none;
 }
 
 .rig li {
     display: inline-block;
-    *display:inline;/*for IE6 - IE7*/
+    *display:inline;
     width: 30%;
     vertical-align:middle;
     box-sizing:border-box;
@@ -4873,16 +5455,13 @@ span.button-arrow:hover{
     padding: 8px;
 }
         
-/* The wrapper for each item */
 .rig-cell {
-    /*margin:12px;
-    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    
     display:block;
     position: relative;
     overflow:hidden;
 }
         
-/* If have the image layer */
 .rig-img {
     display:block;
     width: 100%;
@@ -4896,7 +5475,6 @@ span.button-arrow:hover{
     transform:scale(1.05);
 }
         
-/* If have the overlay layer */
 .rig-overlay {
     position: absolute;
     display:block;
@@ -4908,7 +5486,7 @@ span.button-arrow:hover{
     background: #000 no-repeat center 20%;
     background-size:50px 50px;
     opacity:0;
-    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    filter:alpha(opacity=0);
     transition:all 0.6s;
 }
 
@@ -4916,7 +5494,6 @@ span.button-arrow:hover{
     opacity:0.8;
 }
 
-/* If have captions */
 .rig-text {
     display:block;
     padding:0 20px;
@@ -4935,7 +5512,7 @@ span.button-arrow:hover{
     top:40%;
     color:#fff;
     opacity:0;
-    filter:alpha(opacity=0);/*For older IE*/
+    filter:alpha(opacity=0);
     transform:translateY(-20px);
     transition:all .3s;
 }
@@ -4980,6 +5557,6 @@ span.button-arrow:hover{
 .img2:hover{
   display: none;
 }
-
+*/
 
 }/* Close Imac Media Query */
